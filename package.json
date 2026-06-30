@@ -1,0 +1,7 @@
+{
+  "name": "ws26-zurb-foundation",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "foundation-sites": "6.9.0" }
+}
