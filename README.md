@@ -10,7 +10,7 @@ Node static server.
 docker compose up --build
 ```
 
-Then open **http://localhost:8080**. Stop it with `docker compose down`.
+Then open **http://localhost**. Stop it with `docker compose down`.
 
 ## Develop
 
@@ -21,7 +21,7 @@ npm install
 npm start
 ```
 
-The server runs on **http://localhost:8080**. Edit **public/index.html** and refresh the browser to see changes.
+The server runs on **http://localhost**. Edit **public/index.html** and refresh the browser to see changes.
 The library is referenced from `/vendor/...`, which the server maps to `node_modules/...`.
 
 ## Stack
